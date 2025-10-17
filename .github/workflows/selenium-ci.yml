@@ -22,7 +22,7 @@ jobs:
           cache: 'maven'
 
       - name: Install Google Chrome
-        uses: browser-actions/setup-chrome@v3
+        uses: browser-actions/setup-chrome@v2.1.0
         with:
           chrome-version: 'latest'
 
